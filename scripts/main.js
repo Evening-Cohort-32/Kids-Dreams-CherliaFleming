@@ -1,5 +1,5 @@
 import { Pairings } from "./Pairings.js"
-import { Celebrities } from "./CelebrityList.js"
+import { Celebrities, celebritySport } from "./CelebrityList.js"
 import { Kids, kidWish } from "./Kids.js"
 
 const mainContainer = document.querySelector("#container")
@@ -21,6 +21,7 @@ const applicationHTML = `
         <h2>Pairings</h2>
     </article>
 `
+kidWish()
 
 mainContainer.innerHTML = applicationHTML
 
