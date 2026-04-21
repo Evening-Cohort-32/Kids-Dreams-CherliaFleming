@@ -19,9 +19,11 @@ const applicationHTML = `
 
     <article class="assignments">
         <h2>Pairings</h2>
+        ${Pairings()}
     </article>
 `
-kidWish()
 
 mainContainer.innerHTML = applicationHTML
 
+kidWish()
+celebritySport()
