@@ -1,6 +1,6 @@
 import { Pairings } from "./Pairings.js"
 import { Celebrities } from "./CelebrityList.js"
-import { Kids } from "./Kids.js"
+import { Kids, kidWish } from "./Kids.js"
 
 const mainContainer = document.querySelector("#container")
 
